@@ -1,3 +1,4 @@
+# Version Control and Branch Management (Git)
 Versioning atau version control adalah untuk mengatur versi dari source code program. GIT merupakan salah satu version control system pupuler yang digunakan para developer untuk mengembangkan software secara bersama-sama. Pemanfaatan git ini secara distribusi. Git dapat di jalankan pada system operasi macOS,Windows, dan Linux.
 
 Perintah-perintah dasar pada Git antara lain:
