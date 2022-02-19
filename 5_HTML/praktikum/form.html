@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Buat Account Baru!</h1>
+    <h2>Sign Up Form</h2>
+    <form action="welcome.html">
+        <div for="firstname">First name:</div>
+        <input type="text" id="firstname">
+        <div for="lastname">Last name:</div>
+        <input type="text" id="lastname">
+        <p>Gender:</p>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="gender">Male</label><br>
+         <input type="radio" id="female" name="gender" value="female">
+         <label for="gender">Female</label><br>  
+         <input type="radio" id="other" name="gender" value="other">
+         <label for="gender">Other</label><br><br>
+         <div for="nasionality">Nasionality:</div>
+         <select name="nasionality" id="nasionality">
+             <option value="indonesia"> Indonesia</option>
+             <option value="inggris"> Inggris</option>
+             <option value="malaysia"> Malaysia</option>
+         </select>
+         <div for="languagespoken">Language Spoken:</div>
+         <input type="checkbox" name="languagespoken" id="languagespoken" value="bahasaindonesia">
+         <label for="languagespoken">Bahasa Indonesia</label><br><br>
+         <input type="checkbox" name="languagespoken" id="languagespoken" value="english">
+         <label for="languagespoken">English</label><br><br>
+         <input type="checkbox" name="languagespoken" id="languagespoken" value="other">
+         <label for="languagespoken">Other</label><br><br>
+         <div for="bio">Bio:</div>
+         <textarea name="bio" id="bio"></textarea>
+         <br>
+         <input type="submit" value="Sign Up">
+    </form>
+
+</body>
+</html>
