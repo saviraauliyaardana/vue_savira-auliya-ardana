@@ -11,10 +11,11 @@
     <h2>Sign Up Form</h2>
     <form action="welcome.html">
         <div for="firstname">First name:</div>
-        <input type="text" id="firstname">
+        <input type="text" id="firstname"><br><br>
         <div for="lastname">Last name:</div>
         <input type="text" id="lastname">
-        <p>Gender:</p>
+        <p></p>
+        <div for="Gender">Gender:</div>
         <input type="radio" id="male" name="gender" value="male">
         <label for="gender">Male</label><br>
          <input type="radio" id="female" name="gender" value="female">
@@ -27,15 +28,16 @@
              <option value="inggris"> Inggris</option>
              <option value="malaysia"> Malaysia</option>
          </select>
+         <p>
          <div for="languagespoken">Language Spoken:</div>
          <input type="checkbox" name="languagespoken" id="languagespoken" value="bahasaindonesia">
-         <label for="languagespoken">Bahasa Indonesia</label><br><br>
+         <label for="languagespoken">Bahasa Indonesia</label><br>
          <input type="checkbox" name="languagespoken" id="languagespoken" value="english">
-         <label for="languagespoken">English</label><br><br>
+         <label for="languagespoken">English</label><br>
          <input type="checkbox" name="languagespoken" id="languagespoken" value="other">
          <label for="languagespoken">Other</label><br><br>
          <div for="bio">Bio:</div>
-         <textarea name="bio" id="bio"></textarea>
+         <textarea name="bio" id="bio" rows="8" cols="35"></textarea>
          <br>
          <input type="submit" value="Sign Up">
     </form>
