@@ -1,13 +1,17 @@
-7 BOOTSTRAP
-Resume
+# 7 BOOTSTRAP
+## Resume
+
 Dalam materi ini mempelajari:
 1.	Cara memulai BOOTSTRAP
 2.	Class Pada BOOTSTRAP
+
 Front End Framework adalah sekumpulan aturan kode yang bisa kita gunakan  untuk mempermudah dalam membuat suatu tampilan website.
-Memulai BOOTSTRAP
--	Untuk dapat menggunakan bootstrap, dapat langsung menuju website bootstrap dan unduh secara langsung di [bootstrap](https://getbootstrap.com/docs/5.1/getting-started/download/)
--	Setelah mengunduh bootstrap, Langkah selanjutnya adalah dengan cara mempelajari example, ataupun mempelajari komponen-komponen yang ada pada bootstrap di [komponen](https://getbootstrap.com/docs/5.1/layout/containers/)
-Class Pada BOOTSTRAP
+
+### Memulai BOOTSTRAP
+-	Untuk dapat menggunakan bootstrap, dapat langsung menuju website bootstrap dan unduh secara langsung di [link bootstrap](https://getbootstrap.com/docs/5.1/getting-started/download/)
+-	Setelah mengunduh bootstrap, Langkah selanjutnya adalah dengan cara mempelajari example, ataupun mempelajari komponen-komponen yang ada pada bootstrap di [link komponen bootstrap](https://getbootstrap.com/docs/5.1/layout/containers/)
+
+### Class Pada BOOTSTRAP
 -	Container : container, container-fluid
 ```bash
 <div class = “container”>
