@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+
+    body {
+      font-family: 'Slabo 27px', serif;
+      font-size: 20px;
+      color: white;
+      margin: 50px;
+    }
+
+    #id-parent {
+      display: flex;
+      justify-content: left;
+    }
+
+    p {
+      text-align: center;
+      margin: 0;
+    }
+
+    #id-parent div {
+      margin-right: 60px;
+      width: 100px;
+      height: 100px;
+      background-color: red;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+    }
+
+    #id-parent div:last-child {
+      background-color: blue;
+    }
+
+    #id3 {
+      margin-top: 45px;
+      padding: 0;
+      width: 350px;
+      height: 350px;
+      background-color: green;
+      border-radius: 15px;
+      display: flex;
+      justify-content: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="id-parent">
+    <div id="id1">
+      <p>Saya adalah box red berukuran 100 px</p>
+    </div>
+    <div id="id2">
+      <p>Saya adalah box blue berukuran 100 px</p>
+    </div>
+  </div>
+  <div id="id3">
+    <p>Saya adalah box green berukuran 350 px</p>
+  </div>
+
+</body>
+
+</html>
