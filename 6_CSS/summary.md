@@ -140,6 +140,8 @@ Membuat style pada elemen table HTML
 
 ## Task
 pada task ini membuat sebuah tampilan halaman dengan hanya menggunakan CSS 
+
 output:
+
 ![](https://drive.google.com/uc?export=view&id=1-7lbZxVcqacA_X5DDGtZV9GkU-m0856-)
 ![](https://drive.google.com/uc?export=view&id=1gFeS_f8a2LrIwQZ2fnXxEObvMIP3kWGa)
