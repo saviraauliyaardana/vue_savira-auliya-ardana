@@ -17,12 +17,14 @@ Dalam materi ini mempelajari:
 -	Dapat mengatur posisi pada halaman web. (float,align,display,position,dll)
 ### Menambahkan file CSS
 Ada 3 cara menambahkan file CSS ke dalam HTML:
-1.	External CSS
+
+1.External CSS
 ```bash
 <link rel=”stylesheet” href=”main.css”>
 ```
 Syntax ini disisipkan ke dalam tag ```<head>``` pada HTML. Ekstensi file CSS adalah ```.css```
-2.	Internal CSS
+
+2.Internal CSS
 ```bash
 <style>
 	body{
@@ -35,11 +37,13 @@ Syntax ini disisipkan ke dalam tag ```<head>``` pada HTML. Ekstensi file CSS ada
 </style>
 ```
 Syntax ini dapat digunakan di dalam satu file HTML. Didefinisikan di dalam elemen ```<style>```, didalam bagian ```<head>``` atau didalam bagian ```<body>```.
-3.	Inline CSS
+
+3.Inline CSS
 ```bash
 <h1 style=”color: #19355f ;”> Hello World</h1>
 ```
 Syntax ini dapat digunakan untuk elemen tunggal pada HTML. Diprioritaskan untuk menerapkan style yang unik.
+
 ### CSS Selector
 Pola yang digunakan untuk memilih element, yang ingin di styling.
 Penanda HTML ke dalam CSS dapat menggunakan selector ```ID``` dan ```Class```
@@ -52,6 +56,7 @@ Penanda HTML ke dalam CSS dapat menggunakan selector ```ID``` dan ```Class```
 ### CSS Grouping
 Beberapa selector dapat dikelompokkan dalam satu deklarasi style
 Seperti: 
+
 HTML
 ```bash
 <html>
@@ -81,7 +86,7 @@ Membuat ruang disekitar element
 ```bash
 .content{
 	margin: 25px 20px;
-padding: 25px 40px;
+	padding: 25px 40px;
 }
 ```
 ### CSS Background
@@ -111,7 +116,8 @@ a:visited{
 color: #19355f;
 }
 ```
-### CSS Transisi
+CSS Transisi
+
 Transisi CSS dapat mengubah value property menjadi lebih halus dalam durasi yang ditentukan 
 ```bash
 a{
@@ -133,4 +139,7 @@ Membuat style pada elemen table HTML
 -	:nth-child(even) : membuat background stripe
 
 ## Task
-pada task ini
+pada task ini membuat sebuah tampilan halaman dengan hanya menggunakan CSS 
+output:
+![](https://drive.google.com/uc?export=view&id=1-7lbZxVcqacA_X5DDGtZV9GkU-m0856-)
+![](https://drive.google.com/uc?export=view&id=1gFeS_f8a2LrIwQZ2fnXxEObvMIP3kWGa)
