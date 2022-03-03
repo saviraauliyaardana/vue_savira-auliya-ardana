@@ -96,6 +96,7 @@ Beberapa style background di css
 -	Backgound-repeat : menentukan gambar background untuk diulang
 -	Background-size : menentukan ukuran gambar untuk background
 -	Background-position : menentukan posisi awal gambar background
+
 ### CSS Link Event
 Beberapa link event pada CSS
 -	```:hover ``` kondisi style Ketika mouse berada diatas elemen
@@ -132,6 +133,7 @@ Menentukan tampilan pada elemen
 -	Block : elemen ```block``` selalu dimulai pada baris baru (dimulai dari kiri ke kanan).
 -	Inline-block : elemen ```inline-block``` membutuhkan lebar sesuai yang diperlukan 
 -	None : menyembunyikan elemen untuk tidak ditampilkan
+
 ### CSS Table
 Membuat style pada elemen table HTML
 -	Border : menambahakan border pada table, th dan td
