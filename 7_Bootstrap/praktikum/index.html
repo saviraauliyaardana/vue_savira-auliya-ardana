@@ -7,33 +7,225 @@
 
 <body>
     <!-- header -->
-    <div class="header">
-        <a href="#default" class="logo">CompanyLogo</a>
-        <div class="header-right">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#features">Features</a>
-            <a href="#screenshots">Screenshots</a>
-            <a href="#team">Team</a>
-            <a href="#pricing">Pricing</a>
-            <a href="#drop_down">Drop Down</a>
-            <a href="#contact">Contact</a>
-        </div>
+    <header id="header" class="header fixed-top d-flex align-items-center">
+        <div class="container d-flex align-items-center justify-content-between">
 
-        <!-- footer -->
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    Column
-                </div>
-                <div class="col">
-                    Column
-                </div>
-                <div class="col">
-                    Column
+            <div id="logo">
+                <h1><a href="index.html"><span>e</span>Startup</a></h1>
+                <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" title="" /></a>-->
+            </div>
+
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+                    <li><a class="nav-link scrollto" href="#about-us">About</a></li>
+                    <li><a class="nav-link scrollto" href="#features">Features</a></li>
+                    <li><a class="nav-link scrollto" href="#screenshots">Screenshots</a></li>
+                    <li><a class="nav-link scrollto" href="#team">Team</a></li>
+                    <li><a class="nav-link scrollto" href="#pricing">Pricing</a></li>
+                    <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+                        <ul>
+                            <li><a href="#">Drop Down 1</a></li>
+                            <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+                                <ul>
+                                    <li><a href="#">Deep Drop Down 1</a></li>
+                                    <li><a href="#">Deep Drop Down 2</a></li>
+                                    <li><a href="#">Deep Drop Down 3</a></li>
+                                    <li><a href="#">Deep Drop Down 4</a></li>
+                                    <li><a href="#">Deep Drop Down 5</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Drop Down 2</a></li>
+                            <li><a href="#">Drop Down 3</a></li>
+                            <li><a href="#">Drop Down 4</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav>
+            <!-- .navbar -->
+
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <main id="main">
+
+        <!-- ======= Get Started Section ======= -->
+        <section id="get-started" class="padd-section text-center">
+
+            <div class="container" data-aos="fade-up">
+                <div class="section-title text-center">
+
+                    <h2>simple systeme fordiscount </h2>
+                    <p class="separator">Integer cursus bibendum augue ac cursus .</p>
+
                 </div>
             </div>
-        </div>
+
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="feature-block">
+
+                            <img src="assets/img/svg/cloud.svg" alt="img">
+                            <h4>introducing whatsapp</h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                            <a href="#">read more</a>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="feature-block">
+
+                            <img src="assets/img/svg/planet.svg" alt="img">
+                            <h4>user friendly interface</h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                            <a href="#">read more</a>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="feature-block">
+
+                            <img src="assets/img/svg/asteroid.svg" alt="img">
+                            <h4>build the app everyone love</h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                            <a href="#">read more</a>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+        <!-- End Get Started Section -->
+
+        <!-- ======= About Us Section ======= -->
+        <section id="about-us" class="about-us padd-section">
+            <div class="container" data-aos="fade-up">
+                <div class="row justify-content-center">
+
+                    <div class="col-md-5 col-lg-3">
+                        <img src="assets/img/about-img.png" alt="About" data-aos="zoom-in" data-aos-delay="100">
+                    </div>
+
+                    <div class="col-md-7 col-lg-5">
+                        <div class="about-content" data-aos="fade-left" data-aos-delay="100">
+
+                            <h2><span>eStartup</span>UI Design Mobile </h2>
+                            <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+                            </p>
+
+                            <ul class="list-unstyled">
+                                <li><i class="vi bi-chevron-right"></i>Creative Design</li>
+                                <li><i class="vi bi-chevron-right"></i>Retina Ready</li>
+                                <li><i class="vi bi-chevron-right"></i>Easy to Use</li>
+                                <li><i class="vi bi-chevron-right"></i>Unlimited Features</li>
+                                <li><i class="vi bi-chevron-right"></i>Unlimited Features</li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- End About Us Section -->
+
+        <!-- footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-12 col-lg-4">
+                        <div class="footer-logo">
+
+                            <a class="navbar-brand" href="#">eStartup</a>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the.</p>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-3 col-lg-2">
+                        <div class="list-menu">
+
+                            <h4>Abou Us</h4>
+
+                            <ul class="list-unstyled">
+                                <li><a href="#">About us</a></li>
+                                <li><a href="#">Features item</a></li>
+                                <li><a href="#">Live streaming</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-3 col-lg-2">
+                        <div class="list-menu">
+
+                            <h4>Abou Us</h4>
+
+                            <ul class="list-unstyled">
+                                <li><a href="#">About us</a></li>
+                                <li><a href="#">Features item</a></li>
+                                <li><a href="#">Live streaming</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-3 col-lg-2">
+                        <div class="list-menu">
+
+                            <h4>Support</h4>
+
+                            <ul class="list-unstyled">
+                                <li><a href="#">faq</a></li>
+                                <li><a href="#">Editor help</a></li>
+                                <li><a href="#">Contact us</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-3 col-lg-2">
+                        <div class="list-menu">
+
+                            <h4>Abou Us</h4>
+
+                            <ul class="list-unstyled">
+                                <li><a href="#">About us</a></li>
+                                <li><a href="#">Features item</a></li>
+                                <li><a href="#">Live streaming</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="copyrights">
+                <div class="container">
+                    <p>&copy; Copyrights eStartup. All rights reserved.</p>
+                    <div class="credits">
+                        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+
 </body>
 
 </html>
