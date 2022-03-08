@@ -38,3 +38,22 @@ Front End Framework adalah sekumpulan aturan kode yang bisa kita gunakan  untuk 
 </div>
 ```
 -	Button : btn-primary, btn-success, btn-danger
+
+## Task
+1. pada task ini membuat header yang responsive dengan bentuk yang sudah ditentukan seperti yang ada pada contoh
+
+output:
+
+![](https://drive.google.com/uc?export=view&id=17HDz2R0vzS2CAXr5sQwgDuBoCGirq0vf)
+![](https://drive.google.com/uc?export=view&id=1QReTfwSl70apH8pY9yLyTrFRits-50-L)
+
+2. membuat tampilan body
+
+output:
+
+![](https://drive.google.com/uc?export=view&id=1j9_Et5d88TluEKnb4n3BG42iriskNMXl)
+
+3. membuat footer
+
+output:
+![](https://drive.google.com/uc?export=view&id=1FMqa1isgj1Fw5vbgIrFjJ7kTQIAuSsEu)
