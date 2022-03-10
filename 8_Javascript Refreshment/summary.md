@@ -110,8 +110,10 @@ const c = 7;
 ### Values & References
 Javascript mempunyai 2 kategori dalam tipe data, yaitu 
 - Primitive 
+
   Primitive dalam pemrograman adalah unit pemrosesan terkecil dan elemen paling sederhana yang tersedia dalam bahasa pemrograman. Primitive merupakan salah satu kategori tipe data pada javascript, ada tipe data Number, String, Boolean, Undifined, Null, Symbol, dan BigInteger.
 - Object
+
   Object adalah unit yang menyimpan properti dan fungsi (method).
 
 Aturan sederhana untuk meneruskan nilai adalah bahwa semua nilai primitif dalam javascript diteruskan oleh nilai. 
@@ -203,7 +205,9 @@ Method merupakan sebuah fungsi yang terkait dengan object, membuat programnya se
 Normal Flow adalah pengeksekusian statement dari atas ke bawah atau kiri ke kanan yang dilakukan secara berurutan.
 Control Flow yaitu mengatur alur eksekusi pada statement atau jalannya program sesuai keinginan. Untuk melakukan control flow dibutuhkan pengulangan atau pengkondisian
 - Pengulangan (Loop/iterasi)
-  for, while, Do While
+   - for
+   - while
+   - Do While
 - Pengkondisian (percabangan)
    - if...else
    - switch
@@ -211,6 +215,7 @@ Control Flow yaitu mengatur alur eksekusi pada statement atau jalannya program s
    - break
    - continue
    - try...catch
+   
      Try bertugas mengeksekusi statement didalamnya, sedangkan catch bertugas menangkap error yang terjadi pada statement didalam try
         ```bash
         try{
@@ -220,6 +225,7 @@ Control Flow yaitu mengatur alur eksekusi pada statement atau jalannya program s
         }
         ```
    - throw
+   
      Throw terjadi didalam block try, bertugas melemparkan error sesuai kondisi yang diinginkan, error itu akan ditangkap oleh catch
         ```bash
         function percobaan(angka){
@@ -350,7 +356,7 @@ DOM Event
 
 
 ## Task
-[Task](https://docs.google.com/document/d/1Ke6H5HerrxYGt6QuDHtCCbqQwPUFcgGLoFI1a0n-6D8/edit)
+[link Task](https://docs.google.com/document/d/1Ke6H5HerrxYGt6QuDHtCCbqQwPUFcgGLoFI1a0n-6D8/edit)
 
 output:
 
