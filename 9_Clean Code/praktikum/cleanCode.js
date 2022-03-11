@@ -1,5 +1,5 @@
 // jawaban problem 1
-// a. berapa banyak kekurangan dalam penulisan kode tersebut? 
+// a. berapa banyak kekurangan dalam penulisan kode tersebut? ada 4
 // b. bagian mana saja terjadi kekurangan tersebut? 
 //     "1. class user 
 //     "2. pendeklarasian variabel var yang seharusnya memakai this
