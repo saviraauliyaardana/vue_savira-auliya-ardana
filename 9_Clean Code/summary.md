@@ -7,12 +7,16 @@ Dalam materi ini mempelajari:
 
 ### Clean Code
 Clean Code adalah istilah untuk kode yang mudah dibaca, difahami dan diubah oleh programmer.
+
 Kenapa Clean Code?
+
 untuk kolaborasi yang akan dikerjakan secara tim sehingga dengan kode yang baik dan benar antar programmer tidak akan mengalami kesulitan ketika akan melanjutkan pekerjaan dari programmer lain. Selain itu penerapan Clean Code bisa menghemat waktu dan biaya saat harus melakukan maintenance terhadap sistem.
 
 ### Karakteristik Clean Code
 1. Mudah difahami
-   Penamaan mudah difahami, Example:
+   Penamaan mudah difahami
+   
+   Example:
    ```bash
    let userBalance = 125.0;         //let b =   // salah
    let primelist = [2, 3, 4, 7];    //let data = // salah
@@ -27,6 +31,7 @@ untuk kolaborasi yang akan dikerjakan secara tim sehingga dengan kode yang baik 
    }
    ```
 2. Mudah dieja dan dicari
+
    Example:
    ```bash
    const currentDate = moment ().format('YYYY/MM/DD');
@@ -37,6 +42,7 @@ untuk kolaborasi yang akan dikerjakan secara tim sehingga dengan kode yang baik 
    setTimeouut (blastOff, MILLISECONDS_IN_A_DAY);
    ```
 3. Singkat namun mendeskripsikan konteks
+
    Example:
    ```bash
    function inviteUser(emailAddress){}      //function inv (user){} // salah
@@ -47,6 +53,7 @@ untuk kolaborasi yang akan dikerjakan secara tim sehingga dengan kode yang baik 
    saveCityZipCode(city, zipCode);
    ```
 4. Konsisten
+   
    Example:
    ```bash
    getUser();           // getUserId(); //salah
@@ -66,6 +73,7 @@ untuk kolaborasi yang akan dikerjakan secara tim sehingga dengan kode yang baik 
    class Alpace {}
    ```
 5. Hindari penambahan konteks yang tidak perlu
+   
    Example:
    ```bash
     let fullName; //let fullNameString;
@@ -79,6 +87,7 @@ untuk kolaborasi yang akan dikerjakan secara tim sehingga dengan kode yang baik 
     }
     ```
 6. Komentar
+   
    Example:
    ```bash
         benar                   salah
@@ -87,6 +96,7 @@ untuk kolaborasi yang akan dikerjakan secara tim sehingga dengan kode yang baik 
                         |   //doSomeMoreStuff();
     ```
 7. Good function
+   
    Example:
    ```bash
    function createMenu (title, body, buttonText, cancellable){}             // salah, terlalu banyak argumen
@@ -99,6 +109,7 @@ untuk kolaborasi yang akan dikerjakan secara tim sehingga dengan kode yang baik 
    });
    ``` 
 8. Gunakan konvensi
+   
    Example "Style Guide" 
     - Airbnb JavaScript Style Guide
     - Google Python Style GUide
@@ -133,4 +144,5 @@ untuk kolaborasi yang akan dikerjakan secara tim sehingga dengan kode yang baik 
 pada task pertama yaitu menganalisis sebuah code dan pada task ke dua mengubah code yang sudah ada agar bisa di run
 
 output :
+
 ![](https://drive.google.com/uc?export=view&id=10-Y1Zwf9JEUtOLerPvMc-s4q4Mk_r1NN)
