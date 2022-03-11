@@ -125,14 +125,19 @@ untuk kolaborasi yang akan dikerjakan secara tim sehingga dengan kode yang baik 
 
 ### Clean Code Principle
 1. KISS (Keep It So Simple)
+
    - Hindari membuat fungsi yag dibuat untuk melakukan A, sekaligus memodifikasi B, mengecek fungsi C, dst.
    - Fungsi atau class harus kecil
    - Fungsi dibuat untuk melakukan satu tugas saja
    - Jangan gunakan terlallu banyak argumen pada fungsi
    - Harus diperhatikan untuk mencapai kondisi yang seimbang, kecil dan jumlahnya minimal
+   
 2. DRY (Don't Repeat Yourself)
+
    duplikasi code terjadi karena sering copy paste. Untuk menghindari duplikasi code buatlah fungsi yang dapat digunakan secara berulang-ulang
+   
 3. Refactoring
+   
    Refactoring adalah restrukturisasi kode yang dibuat, dengan cara mengubah struktur internal tanpa mengubah perilaku eksternal. Prinsip KISS dan DRY bisa dicapai dengan refactor
    Teknik Refactoring
     - membuat sebuah abstraksi
