@@ -18,9 +18,11 @@ Cara kerja HTML
 HTML Tag
     Sebuah file HTML terdiri atas serangkaian tags (bisa disebut juga elements). Sebagian besar elemen bahasa markup ini memiliki tag pembuka dan penutup yang menggunakan syntax ```<tag></tag>```. Sisanya memiliki syntax penutup sendiri ```<input/>``` dan juga komentar ```<!--komentar-->```.
     Tag HTML memiliki dua tipe utama yaitu block-level dan inline tags. Tiga tag block-level yang harus dimiliki oleh setiap dokumen HTML adalah
-    1. ```<html>```
-    2. ```<head>```
-    3. ```<body>```
+    
+    1. <html>
+    2. <head>
+    3. <body>
+   
 
 ### CSS
 Singkatan dari Cascading Style Sheets. CSS dipakai untuk mendesain halaman depan atau tampilan website. CSS menangani tampilan dan 'rasa' dari halaman website
@@ -29,25 +31,26 @@ Cara kerja CSS
     CSS membuat style didalam halaman web yang dapat berinteraksi dengan element HTML
 
 Macam CSS didalam kode HTML
+
     - Inline CSS
-        ```bash
+   
         <h1 style=”font-size:20px; color:mediumblue;”> Hello World</h1>
-        ```
+	
     - Eksternal CSS
-        ```bash
+    
         <head>
             <link rel=”stylesheet” type="text/CSS" href=”fileCSSAnda.css”>
         </head>
-        ```
+	
     - Internal CSS
-        ```bash
+   
         <head>
             <style>
 	            body {background-color: blur;}
 	            p { font-size: 20px color: mediumblue; }
             </style>
         </head>
-        ```
+
 
 Media Queries
     Media query merupakan modul CSS yang berguna membuat layout kita responsive dengan menyesuaikan tampilan berdasarkan ukuran layar perangkat
@@ -96,20 +99,23 @@ Tool ini merupakan command line yang dapat menginstall dan meng-uninstall packag
 
 Cara pasang NPM
     NPM otomatis terpasang ketika menginstall Node.js. untuk memastikannya dapat menggunakan cara
+    
     ```bash
     $ node -v
     $ npm -v
     ```
+    
 Cara kerja NPM
     NPM bekerja untuk mengatur package pada proyek yang berjalan dengan node.js. Package pada node.js memuat semua file yang dibutuhkan sebagai module. Module adalah library javascript yang dapat kita masukkan ke dalam proyek.
 
 Struktur proyek NPM
     untuk membuat proyek aplikasi, jalankan perintah berikut kemudian tekan enter untuk semua pertanyaan dibawahnya
+    
     ```bash
     $ npm init
     ```
-    sebuah file bernama package.json akan muncul pada direktori proyek.
-    Key yang penting untuk diingat :
+  sebuah file bernama package.json akan muncul pada direktori proyek.
+  Key yang penting untuk diingat :
     - name adalah nama proyek
     - scripts adalah daftar perintah yang bisa dijalankan didalam proyek
         contoh : npm run test
@@ -118,10 +124,12 @@ Struktur proyek NPM
 
 Menambahkan Dependensi
 untuk menambahkan dependensi dapat dengan menjalankan perintah
+
 ```bash
 $ npm install <nama module>
 $ npm install <nama module> -D
 ```
+
 setelah berhasil, pada direktori proyek akan ditambahkan file :
 - package-lock.json, untuk menyimpan informasi isi dan versi node_modules
 - node_modules, untuk menampung library yang telah didownload dan siap digunakan di aplikasi
