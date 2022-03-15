@@ -8,47 +8,44 @@
     <title>Document</title>
 </head>
 <style>
-
+    .list input {
+        margin-top: 15px;
+    }
 </style>
 
 <body>
-    <div id="app">
-        <div>{{ message }}</div>
-        <input type="text" v-model="message" />
-        <div v-if="message.length > 20"></div>
-        <button @click="showAlert()">Tambahkan</button>
-
+    <div class="list" id="app">
         <ol>
-            <li v-for="todo in listTodo">
-                {{ todo.text }}
-            </li>
+            <li v-for="todo in todos" todo in todos>{{ todo.text }}</li>
+            <input type="text" v-model:value="newTodo" />
+            <button v-on:click="addTodo">Tambahkan</button>
+            <p v-if=" todos.length == 4 ">Hebat!</p>
         </ol>
+        <div></div>
+
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.28/vue.min.js"></script>
     <script>
         new Vue({
             el: '#app',
-            data() {
-                newData: '',
-                listTodo: [],
+            data: {
+                newTodo: '',
+                todos: [],
+                done: false
             },
             methods: {
                 addTodo: function() {
                     var newItem = this.newTodo.trim()
                     if (newItem) {
-                        this.listTodo.push({
+                        this.todos.push({
                             text: newItem
                         })
                         this.newTodo = '';
                     }
                 }
-                showAlert() {
-                    alert('list disimpan');
-
-                }
             }
-        })
+        });
     </script>
 </body>
 
