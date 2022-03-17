@@ -12,67 +12,80 @@ Dalam materi ini mempelajari:
 
 ### Pengenalan Vue
 
-    Vue adalah framework dari javascript untuk mengembangkan tampilan website yang lebih interaktif dan dinamis.
+Vue adalah framework dari javascript untuk mengembangkan tampilan website yang lebih interaktif dan dinamis.
 
-    Kenapa Vue?
-        - Mudah membuat aplikasi frontend dan website
-        - Mudah dipelajari dan menyenangkan 
-        - Dokumentasi yang lengkap dan rapi
-        - Ramping dan cepat
-    
-    **Cara Kerja Vue**
-    - Vue CDN
-        Vue dapat digunakan langsung di file HTML degan menambahkan perintah : 
-        ```bash
-        <script src="https://unpkg.com.vue"></script>
-        ```
-    - Vue CLI
-        Menggunakan perkakas standar dari ekosistem Vue untuk memudahkan setup/pembuatan aplikasi Vue
+Kenapa Vue?
+
+  - Mudah membuat aplikasi frontend dan website
+  - Mudah dipelajari dan menyenangkan 
+  - Dokumentasi yang lengkap dan rapi
+  - Ramping dan cepat
+
+Cara Kerja Vue
+ - Vue CDN
+   Vue dapat digunakan langsung di file HTML degan menambahkan perintah : 
+    ```bash
+     <script src="https://unpkg.com.vue"></script>
+    ```
+  - Vue CLI
+    Menggunakan perkakas standar dari ekosistem Vue untuk memudahkan setup/pembuatan aplikasi Vue
 
 ### Vue Setup dan Resources
-
-    Yang dibutuhkan Vue Setup dan Resources yaitu:
-    - Text Editor 
+  Yang dibutuhkan Vue Setup dan Resources yaitu:
+  
+   - Text Editor 
         [Visual Studio Code](https://code.visualstudio.com/download)
-    - Browser 
+        
+   - Browser 
         [Google Chrome](https://www.google.co.id/intl/id/chrome/)
-    Sumber Daya Tambahan
-    - Dokumentasi
+        
+  Sumber Daya Tambahan
+   - Dokumentasi
         [dokumentasi](https://docs.vuejs.id/v2/guide/index.html)
-    - Kumpulan contoh resmi
+        
+   - Kumpulan contoh resmi
         [contoh resmi](https://awesome-vue.js.org/resources/official-examples.html)
-    - Kumpulan contoh lainnya
+        
+   - Kumpulan contoh lainnya
         [contoh lain](https://awesome-vue.js.org/resources/examples.html)
-    - Kumpulan buku
+        
+   - Kumpulan buku
         [buku](https://awesome-vue.js.org/resources/books.html)
 
 ### Dasar-dasar Vue
 - Vue Instance
-    setiap aplikasi Vue dimulai dengan membuat instance Vue baru dengan fungsi Vue
-        ```bash
-        var vm = new Vue({
-           // option
-        })
-        ```
+
+  setiap aplikasi Vue dimulai dengan membuat instance Vue baru dengan fungsi Vue
+  ```bash
+   var vm = new Vue({
+     // option
+   })
+  ```
+  
 - Vue Data Binding
     Vue,js menggunakan sintaks template berbasis HTML yang memungkinkan untuk secara deklaratif mengikat DOM yang dirender ke data instance Vue yang mendasarinya. Ada 3 jenis data binding pada Vue yaitu:
-        1. Di Dalam Konten
-            Untuk menambahkan text kedalam konten element dapat menggunakan ```kurung kurawal```
-            ``` bash
-            <span>Message: {{ msg }}</span>
-            ```
-        2. Di Atribut Elemen
-            Untuk menambahkan variabel kedalam atribut elemen dapat menggunakan ```v-bind```
-            ```bash
-            <div v-bind:id="dynamicId"></div>
-            ```
-        3. Elemen HTML
-            Untuk menambahkan HTML elemen kedalam DOM dapat menggunakan atribut ```v-html```
-            ```bash
-            <p>Menggunakan v-html directive: <span v-html="rawHtml"></span></p>
-            ```
+    
+   1. Di Dalam Konten
+   
+      Untuk menambahkan text kedalam konten element dapat menggunakan ```kurung kurawal```
+      ``` bash
+      <span>Message: {{ msg }}</span>
+      ```
+    2. Di Atribut Elemen
+    
+       Untuk menambahkan variabel kedalam atribut elemen dapat menggunakan ```v-bind```
+       ```bash
+        <div v-bind:id="dynamicId"></div>
+       ```
+    3. Elemen HTML
+    
+       Untuk menambahkan HTML elemen kedalam DOM dapat menggunakan atribut ```v-html```
+        ```bash
+        <p>Menggunakan v-html directive: <span v-html="rawHtml"></span></p>
+        ```
+        
 - Vue Reactivity
-    Vue instance memiliki property bernama data, jika value dari data ada yang berubah maka value yang ditampilkan pada interface akan berubah otomatis tanpa harus dimuat ulang.
+  Vue instance memiliki property bernama data, jika value dari data ada yang berubah maka value yang ditampilkan pada interface akan berubah otomatis tanpa harus dimuat ulang.
     ```bash
     var vm = new Vue({
         data: {
@@ -98,8 +111,9 @@ Dalam materi ini mempelajari:
 ### Vue Directive
 Directive adalah atribut khusus yang diawali dengan ```v-```. Directive berfungsi untuk menjalankan satu perintah atau ekspresi javascript didalam atribut.
 
-**Macam Vue Directive**
+Macam Vue Directive
 1. v-bind
+
     Directive untuk memberitahu Vue kalau kita ingin melakukan one way data binding
     ```bash
     <html>
@@ -126,6 +140,7 @@ Directive adalah atribut khusus yang diawali dengan ```v-```. Directive berfungs
     </html>
     ```
 2. v-model
+
     Directive untuk memberitahu Vue kalau kita ingin melakukan two way data binding
     ```bash
     <html>
@@ -152,6 +167,7 @@ Directive adalah atribut khusus yang diawali dengan ```v-```. Directive berfungs
     </html>
     ```
 3. v-if,v-else dan v-else-if 
+
     Directive yang digunakan untuk melakukan rendering secara kondisional
     ```bash
     <html>
@@ -180,6 +196,7 @@ Directive adalah atribut khusus yang diawali dengan ```v-```. Directive berfungs
     </html>
     ```
 4. v-on
+
     Directive untuk memberitahu Vue kalau kita ingin memanggil fungsi
     ```bash
     <html>
@@ -207,6 +224,7 @@ Directive adalah atribut khusus yang diawali dengan ```v-```. Directive berfungs
     </html>
     ```
 5. v-for
+
     Directive untuk memberitahu Vue kalau kita ingin melakukan pengulangan
     ```bash
     <html>
@@ -236,7 +254,7 @@ Directive adalah atribut khusus yang diawali dengan ```v-```. Directive berfungs
     </html>
     ```
 
-**Shorthand Vue Directive**
+Shorthand Vue Directive
 Khusus untuk v-bind dan v-on dapat disingkat dengan sintaks sperti berikut:
 ```bash
 //tanpa disingkat
@@ -249,16 +267,18 @@ Khusus untuk v-bind dan v-on dapat disingkat dengan sintaks sperti berikut:
 //disingkat
 <a @click="doSomething">...</a>
 ```
+
 Vue Directive yang Perlu Diingat
+
 1. Direktif Data Binding: v-bind, v-model, v-html, v-text
 2. Direktif Conditional Rendering: v-if, v-else, v-else-if
 3. Direktif Perulangan: v-for
 4. Direktif Event: v-on
 
 ### Events dan Method
-**Memantau Events**
-    Menggunakan direktif v-on untuk mendengarkan peristiwa DOM dan menjalankan beberapa javascript saat di picu.
-    ```bash
+Memantau Events
+Menggunakan direktif v-on untuk mendengarkan peristiwa DOM dan menjalankan beberapa javascript saat di picu.
+ ```bash
     <html>
       <head>
          <tittle>Belajar Frontend</tittle>
@@ -281,11 +301,11 @@ Vue Directive yang Perlu Diingat
         </script>
       </body>
     </html>
-    ```
+   ```
 
-**Menggunakan Methods**
-    Methods adalah fungsi, yang dapat diakses secara langsung pada instance VM, atau menggunakannya dalam ekspresi direktif. Semua metode akan memiliki konteks "this" secara otomatis terikat ke instance Vue.
-     ```bash
+Menggunakan Methods
+Methods adalah fungsi, yang dapat diakses secara langsung pada instance VM, atau menggunakannya dalam ekspresi direktif. Semua metode akan memiliki konteks "this" secara otomatis terikat ke instance Vue.
+ ```bash
     <html>
       <head>
          <tittle>Belajar Frontend</tittle>
@@ -313,9 +333,10 @@ Vue Directive yang Perlu Diingat
         </script>
       </body>
     </html>
-    ```
+ ```
     
 ### Computed Properties dan Watchers
+
 Computed Properties memberikan terlalu banyak logika secara langsung di template dapat menyebabkan menjadi berat dan susah untuk dipelihara.
 ```bash
 <div id="example">
@@ -391,8 +412,8 @@ Watcher di Vue.js adalah fitur khusus yang memungkinkan kita untuk memantau sebu
     </html>
 ```
 ### Component
-    Komponen adalah Vue instance yang dapat digunakan kembali dengan nama yang kita definisikan. Kita bisa menggunakan komponen ini sebagai kustom elemen didalam instance root Vue yang dibuat dengan new Vue.
-    ```bash
+Komponen adalah Vue instance yang dapat digunakan kembali dengan nama yang kita definisikan. Kita bisa menggunakan komponen ini sebagai kustom elemen didalam instance root Vue yang dibuat dengan new Vue.
+  ```bash
     <script>
         Vue.component('tombol-penghitung',{
             data: function(){
@@ -406,15 +427,23 @@ Watcher di Vue.js adalah fitur khusus yang memungkinkan kita untuk memantau sebu
             el: '#app'
         })
     </script>
+   ```
 
 ## Task 
 Membuat sebuah todo list dengan kondisi dan contoh visual seperti pada contoh.
 1. Memiliki sebuah input dan sebuah tombol
+
    output:
+   
    ![](https://drive.google.com/uc?export=view&id=1S8Z5TALQSYMhNhCu3EwmrftAP9stuT-y)
+   
 2. Menunjukkan list todo yang telah ditambahkan dan reset (kosongkan) input setelah tombol di klik
+
    output:
+   
    ![](https://drive.google.com/uc?export=view&id=1ZW2MS2jVGrhB5jzJvIUTS88ZsLbc84hK)
 3. jika list yang sudah dimasukkan sama dengan atau lebih besar dari 4 maka tunjukkan kata 'Hebat!' dibawah input
-output :
+
+    output :
+    
    ![](https://drive.google.com/uc?export=view&id=1exD0A2IPweI9zjqd0PukoZ8FaEumptNP)
