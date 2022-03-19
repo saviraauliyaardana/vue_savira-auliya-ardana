@@ -27,7 +27,7 @@ export default {
   methods: {
     addTodo() {
       var newItem = this.newTodo.trim();
-      if (newItem) {
+      if (newItem != "") {
         this.todos.push({
           text: newItem,
         });

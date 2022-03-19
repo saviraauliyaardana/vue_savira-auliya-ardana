@@ -104,5 +104,16 @@ Terdapat 3 tag utama pada komponen file tunggal yaitu:
 ## Task
 Membuat sebuah Todo list dengan menggunakan komponen file tunggal dengan kondisi dan contoh visual yang sudah ditentukan yaitu:
 1. Memiliki sebuah input dan sebuah tombol.
+    output:
+   
+   ![](https://drive.google.com/uc?export=view&id=1S8Z5TALQSYMhNhCu3EwmrftAP9stuT-y)
+
 2. Menunjukkan list todo yang telah ditambahkan dan reset (kosongkan) input setelah tombol di klik. Jangan tambahkan ke list jika tekan tombol namun input kosong.
+   output:
+   
+   ![](https://drive.google.com/uc?export=view&id=1ZW2MS2jVGrhB5jzJvIUTS88ZsLbc84hK)
+
 3. jika list yang sudah dimasukkan sama dengan atau lebih besar dari 4 maka tunjukkan kata 'Hebat!' dibawah input.
+   output :
+    
+   ![](https://drive.google.com/uc?export=view&id=1exD0A2IPweI9zjqd0PukoZ8FaEumptNP)
