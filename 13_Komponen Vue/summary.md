@@ -17,7 +17,9 @@ Modul bisa memuat satu sama lain dan menggunakan pengarah khusus **export** dan 
 Export digunakan untuk menyediakan fungsi, objek, atau nilai primitif dari modul sehingga dapat digunakan oleh modul lain dengan pernyataan import. Ada 2 tipe Export antara lain yaitu:
 
 - Named Exports (Ekspor nol atau lebih per modul)
-  **export const**
+
+  export const
+  
   ```bash
   const mencobaFungsi = (nama) => {
     return "Halo " + nama + "!";
@@ -46,7 +48,9 @@ Export digunakan untuk menyediakan fungsi, objek, atau nilai primitif dari modul
   ```
 
 - Default Exports (satu per modul)
-  **export default**
+  
+  export default
+  
   ```bash 
   const variabelPercobaan2 = 100;
   export default variabelPercobaan2;
@@ -65,7 +69,9 @@ Export digunakan untuk menyediakan fungsi, objek, atau nilai primitif dari modul
 Import digunakan untuk mengambil variabel, obyek atau fungsi yang disediakan oleh modul lain. Ada 4 tipe Import antara lain yaitu:
 
 - Importing defaults
-  **import target**
+  
+  import target
+  
   ```bash
   const mencobaFungsi = (nama) => {
    return "Halo " + nama + "!";
@@ -80,7 +86,9 @@ Import digunakan untuk mengambil variabel, obyek atau fungsi yang disediakan ole
   ```
 
 - Import multiple exports
-  **import { target }**
+  
+  import { target }
+  
   ```bash
   export const variabelPercobaan = 100;
   export const obyekUjicoba = {
@@ -100,7 +108,9 @@ Import digunakan untuk mengambil variabel, obyek atau fungsi yang disediakan ole
   console.log(obyekUjicoba); // { nama: "Vue", jenis: "Kerangka kerja Frontend" }
   ```
 - Rename multiple exports
-  **import { target as t }**
+  
+  import { target as t }
+  
   ```bash
   export const variabelPercobaan = 100;
   export const obyekUjicoba = {
@@ -129,7 +139,9 @@ Import digunakan untuk mengambil variabel, obyek atau fungsi yang disediakan ole
   console.log(semuaExport.obyekUjicoba); // { nama: "Vue", jenis: "Kerangka kerja Frontend" }
   ```
 - Import defaults + multiple
-  **import targetDefault, { target as t }**
+  
+  import targetDefault, { target as t }
+  
   ```bash
   export const variabelPercobaan = 100;
   export const obyekUjicoba = {
@@ -409,34 +421,49 @@ Setiap Vue Instance melewati beberapa serangkaian tahapan pada saat dibuat, taha
 ![](https://drive.google.com/uc?export=view&id=1_WPYTkevTYVdQfhjzlwlE0Vx4cvMweYv)
 
 Cara Kerja Lifecycle di Vue
+
 Silklus hidup sebuah Vue instance berawal ketika inisiasi dan berakhir ketika penghancuran. Setiap siklus memiliki hook-nya masing-masing yang berbentuk fungsi.
 ```bash
-beforeCreate, created, beforeMount, mounted, beforeUpdate, updated, activated, deactivated, beforeDestroy, destroyed, errorCaptured
+beforeCreate, created, beforeMount, mounted, 
+beforeUpdate, updated, activated, deactivated, 
+beforeDestroy, destroyed, errorCaptured
 ```
 
 3 Lifecycle Utama
+
 Diantara banyaknya lifecycle hook, Cukup memahami 3 lifecycle Utama yang memiliki fungsi masing-masing sebagai berikut:
+
 1. Created
+   
    Berlangsung setelah instance terbentuk dan sebelum DOM dirender.
    Contoh penggunaan: menambahkan SEO Meta, memasang event listener scroll
 2. Mounted
+   
    Berlangsung setelah DOM dirender.
    Contoh penggunaan: Handling loader
 3. Destroyed
+   
    Berlangsung sebelum instance dihancurkan.
    Contoh penggunaan: mencopot event listener scrool
 
 ## Task
 Pada task ini membuat sebuah todo list dengan menggunakan komponen file tunggal dengan kondisi dan contoh visual yang sudah ditentukan sebagai berikut:
 1. Input todo yang lebarnya memenuhi layar
+
    Output:
    ![](https://drive.google.com/uc?export=view&id=12u5ikZv6yWSjTG_SDuYI-ogAO8EMTvym)
+   
 2. Masing item memiliki tombol hapus dan edit dengan fungsionalitasnya
+   
    Output:
    ![](https://drive.google.com/uc?export=view&id=1SnmYfqOB6dwGMulF-J3JmwXAxtv8kPuM)
+   
     - Tampilan ketika tombol edit ditekan, simpan perubahan setelah tombol edit ditekan kembali
+      
       Output:
       ![](https://drive.google.com/uc?export=view&id=1YhGIiwOiyTGtkO7hXt8xIjrFPAtmYEkR)
+      
     - Jika tombol hapus ditekan, maka list dibawahnya akan naik ke atas menggantikan
+      
       Output:
       ![](https://drive.google.com/uc?export=view&id=1KgIL8pfDCCb96YKPQgN6cr2Q4pNaB-jh)
