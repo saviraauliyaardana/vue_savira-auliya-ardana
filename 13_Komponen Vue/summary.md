@@ -9,7 +9,9 @@ Dalam materi ini mempelajari:
 
 ### Module Export & Import
 Javascript module yaitu modul bisa berisi kelas atau pustaka fungdi untuk tujuan tertentu. Modul hanya sebuah file. Satu kode skrip adalah satu modul.
+
 Perbedaan Module dan Reguler Script
+
 Modul bisa memuat satu sama lain dan menggunakan pengarah khusus **export** dan **import** untuk fungsi pertukaran, memanggil fungsi dari satu modul ke modul lainnya
 - CJS => Impor semua isi
 - ESM => Impor yang dibutuhkan saja
