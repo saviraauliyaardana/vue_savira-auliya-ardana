@@ -8,8 +8,9 @@
     <p>Belum ada deskripsi{{ item.description }}</p>
 
     <input type="text== item.description" v-show="isShow" />
-    <button v-on:click="description(item.description)">Ubah Deskripsi</button>
-    {{ Isshow ? "Save" : "edit" }}
+    <button v-on:click="description(item.description)">
+      {{ Isshow ? "Save" : "Ubah Deskripsi" }}
+    </button>
   </div>
 </template>
 
