@@ -39,4 +39,8 @@ export default {
 };
 </script>
 <style>
+input {
+  flex-wrap: wrap;
+  width: 80%;
+}
 </style>
