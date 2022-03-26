@@ -168,5 +168,35 @@ export default new Vuex.Store({
 });
 ```
 ## Task
+Pada task ini membuat sebuah todo list dengan menggunakan komponen file tunggal dengan kondisi dan contoh visual yang sudah ditentukan sebagai berikut:
+1. Input todo yang lebarnya memenuhi layar
 
+   Output:
+   ![](https://drive.google.com/uc?export=view&id=12u5ikZv6yWSjTG_SDuYI-ogAO8EMTvym)
+   
+2. Masing item memiliki tombol hapus dan edit dengan fungsionalitasnya
+   
+   Output:
+   ![](https://drive.google.com/uc?export=view&id=1SnmYfqOB6dwGMulF-J3JmwXAxtv8kPuM)
+   
+    - Tampilan ketika tombol edit ditekan, simpan perubahan setelah tombol edit ditekan kembali
+      
+      Output:
+      ![](https://drive.google.com/uc?export=view&id=1YhGIiwOiyTGtkO7hXt8xIjrFPAtmYEkR)
+      
+    - Jika tombol hapus ditekan, maka list dibawahnya akan naik ke atas menggantikan
+      
+      Output:
+      ![](https://drive.google.com/uc?export=view&id=1KgIL8pfDCCb96YKPQgN6cr2Q4pNaB-jh)
+      
+3. List tidak boleh hilang meskipun halaman dimuat ulang
+    
+    Output:
+    ![](https://drive.google.com/uc?export=view&id=1KgIL8pfDCCb96YKPQgN6cr2Q4pNaB-jh)
+
+4. Jika judul salah satu di klik, maka navigasi ke halaman detail
+    Output:
+    ![](https://drive.google.com/uc?export=view&id=1tUYXF9nl--Cju7IfGYvuNGgUR8wh8Z2L)
+    
+      
 
