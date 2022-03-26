@@ -195,8 +195,14 @@ Pada task ini membuat sebuah todo list dengan menggunakan komponen file tunggal 
     ![](https://drive.google.com/uc?export=view&id=1KgIL8pfDCCb96YKPQgN6cr2Q4pNaB-jh)
 
 4. Jika judul salah satu di klik, maka navigasi ke halaman detail
+
     Output:
     ![](https://drive.google.com/uc?export=view&id=1tUYXF9nl--Cju7IfGYvuNGgUR8wh8Z2L)
+    
+5. Deskripsi dapat diubah
+
+    Output:
+    ![](https://drive.google.com/uc?export=view&id=1QC6_RfEC6YCMs2tvcaiGs8CNuurwvBcF)
     
       
 
