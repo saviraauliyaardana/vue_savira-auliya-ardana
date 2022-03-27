@@ -12,7 +12,7 @@ export default {
 
 
 <style >
-body {
+h2 {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   color: #2c3e50;
 }

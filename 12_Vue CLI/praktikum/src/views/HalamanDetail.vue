@@ -5,11 +5,12 @@
     </router-link>
 
     <h1>{{ item.text }}</h1>
-    <p>Belum ada deskripsi{{ item.description }}</p>
+    <p>{{ item.description || "Belum ada deskripsi" }}</p>
 
-    <input type="text== item.description" v-show="isShow" />
-    <button v-on:click="description(item.description)">
-      {{ Isshow ? "Save" : "Ubah Deskripsi" }}
+    <input type="text" v-show="isShow" v-model="item.description" />
+
+    <button v-on:click="description">
+      {{ isShow ? "Simpan" : "Ubah deskripsi" }}
     </button>
   </div>
 </template>
@@ -19,29 +20,32 @@ export default {
   data() {
     return {
       isShow: false,
-      newDescription: "",
       item: {},
-      editDescription: null,
+      newIndex: "",
     };
   },
 
   beforeMount() {
-    const newIndex = this.$route.params.index;
+    this.newIndex = this.$route.params.index;
     if (localStorage.todos) {
-      this.item = JSON.parse(localStorage.todos)[newIndex];
+      this.item = JSON.parse(localStorage.todos)[this.newIndex];
     }
   },
 
   methods: {
     description() {
-      this.isShow = true;
+      if (this.isShow) {
+        let t = JSON.parse(localStorage.todos);
+        t[this.newIndex] = this.item;
+        localStorage.todos = JSON.stringify(t);
+      }
+      this.isShow = !this.isShow;
     },
   },
 };
 </script>
 <style>
 input {
-  flex-wrap: wrap;
   width: 80%;
 }
 </style>
