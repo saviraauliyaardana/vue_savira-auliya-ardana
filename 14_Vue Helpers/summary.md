@@ -204,5 +204,10 @@ Pada task ini membuat sebuah todo list dengan menggunakan komponen file tunggal 
     Output:
     ![](https://drive.google.com/uc?export=view&id=1QC6_RfEC6YCMs2tvcaiGs8CNuurwvBcF)
     
+6. Setelah diubah, deskripsi tidak boleh hilang jika dimuat ulang
+
+    Output:
+    ![](https://drive.google.com/uc?export=view&id=1banDP59pDX_gyqqf29Q_wdHrj2IReuT3)
+    
       
 
