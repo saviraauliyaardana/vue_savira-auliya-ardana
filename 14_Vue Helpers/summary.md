@@ -91,12 +91,15 @@ Penyimpanan Global adalah sebuah metode untuk menyimpan variabel yang dapat diak
 - Store (Tersimpan dan Valid dibagian manapun dari aplikasi)
 
 Penyimpanan Global dengan Vuex
+
 Vuex adalah pola manajemen penyimpanan atau store yang berbentuk pustaka untuk aplikasi Vue.js.
 
 Vuex dan Cara Kerjanya
+
 yaitu dengan melakukan penyimpanan terpusat untuk semua komponen dalam aplikasi, dengan aturan yang memastikan bahwa variabel yang tersimpan hanya dapat dimutasi dengan cara terstruktur dan terprediksi
 
 Membuat dan Menggunakan Vuex
+
 Untuk membuat store dengan Vuex dapat menggunakan sintaks sebagai berikut, kemudian sisipkan store ke dalam inisiasi Vue yang ada di main.js
 ```bash
 import Vue from "vue";
@@ -124,12 +127,19 @@ Mutation hanya bertujuan untuk mengubah nilai variabel yang ada didalam store ta
   - setAngka => nama mutation
   - this.newInputValue => Payload/mutation
 - Vuex Actions
+  Vuex actions bertugas sebagai pintu masuk perintah yang menghubungkan komponen dengan store, Action perlu memanggil fungsi di mutations untuk memodifikasi nilai state yang ada di store. Action juga tempat untuk melakukan komunikasi dengan API
    ```bash
   store.dispatch("changeAngkaValue", this.newInputValue);
   ```
     - dispatch => Key untuk melakukan action
     - changeAngkaValue => Nama action
     - this.newInputValue => Payload/mutation
+    
+Memecah Store Sebagai Modul
+praktik terbaik penggunaan Vuex Store adalah dengan cara memisah atau mengisolasi state, mutations dan action ke dalam modul-modul terpisah
+
+Fungsi namespaced 
+jika nilainya true maka perlu menyertakan nama module+slash sebelum nama action. Jika nilainya false maka tidak perlu menyertakan nama module sebelum nama action namun diseluruh modul tidak boleh ada nama action yang sama.
 
 ### Penyimpanan Global Permanen
 Nilai yang ada didalam Vuex store akan dihapus atau disetel ulang sesuai dengan nilai awal jika halaman dimuat ulang. Karena nilai state yang ada di store disimpan didalam memory instance.
@@ -137,8 +147,10 @@ Nilai yang ada didalam Vuex store akan dihapus atau disetel ulang sesuai dengan 
 Penyimpanan Global Permanen merupakan sebuah konsep mempermanenkan state yang ada di store supaya tidak hilang jika halaman dimuat ulang.
 
 Penyimpanan Permanen dengan Vuex-persistedstate
+
 Vuex-persistedstate dapat mempertahankan dan rehidrasi Vuex State di antara permuatan ulang halaman, dengan menyimpannya di localstorage atau di dalam cookies.
-Contoh:
+
+Contoh menggunakan penyimpanan permanen :
 ```bash
 import Vue from "vue";
 import Vuex from "vuex";
