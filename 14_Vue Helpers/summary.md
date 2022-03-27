@@ -36,22 +36,32 @@ this.$router.push({path: '/user/${userId}'});
 this.$router.push({path: 'register', query: {plan: 'private'}}); // /register?plan=private
 ```
 Navigasi Beranak adalah sub-path dari path yang ada.
+
 ```/user/setting/privacy```
-    - user => induk dari setting
-    - setting => anak dari user dan induk dari privacy
-    - privacy => anak dari setting
+
+   - user => induk dari setting
+   - setting => anak dari user dan induk dari privacy
+   - privacy => anak dari setting
+    
 Navigasi Dinamis adalah dimana path tersebut memiliki nilai sembarang dan kita tidak perlu mendefinisikan nilainya satu persatu.
+
 ```/user/123456131237```
-    - user => navigasi statis (path didefinisikan manual sebagai /user)
-    - 123456131237 => navigasi dinamis (path tidak didefinisikan sesuai nilainya, namun sesuai key parameter /user/:id)
+
+  - user => navigasi statis (path didefinisikan manual sebagai /user)
+    
+  - 123456131237 => navigasi dinamis (path tidak didefinisikan sesuai nilainya, namun sesuai key parameter /user/:id)
 
 ### Layout Template Vue
 Layout Template adalah susunan tata letak, Layout Template pada Vue adalah komponen yang dapat dipakai sebagai susunan tata letak dasar yang membungkus masing-masing halaman.
-    - Layout : memuat susunan tata letak yang sama untuk setiap halaman, seperti halnya navbar atau footer.
-    - Halaman : memuat komponen yang berubah-ubah sesuai konten halaman, namun tidak perlu lagi menyertakan navbar disetiap komponen view halaman.
+
+ - Layout : memuat susunan tata letak yang sama untuk setiap halaman, seperti halnya navbar atau footer.
+    
+ - Halaman : memuat komponen yang berubah-ubah sesuai konten halaman, namun tidak perlu lagi menyertakan navbar disetiap komponen view halaman.
+    
 Layout juga dapat diterapkan untuk mengisolasi logika tampilan viewport supaya kode di setiap halaman tetap bbersih dan efisien.
 
 Cara Kerja Layout Template
+
 layout hanya komponen biasa, yang membedakan adalah layout dapat meneruskan konten dari anak komponennya.
 ```bash
 <router-view />
@@ -60,9 +70,11 @@ layout hanya komponen biasa, yang membedakan adalah layout dapat meneruskan kont
 ```
 
 Direktori Layout
+
 Umumnya layout memiliki direktori terpisah sejajar dengan direktori router atau sejajar dengan direktori view.
 
 Membuat dan Menggunakan Layout
+
 jika memiliki 3 path, langkah pertama adalah membuat komponen layoutnya. Buatlah kontroler navigasinya dengan menambahkan ```<router-view />```
 ```bash
 const routes = [
@@ -86,6 +98,7 @@ const routes = [
 ```
 ### Penyimpanan Global
 Penyimpanan Global adalah sebuah metode untuk menyimpan variabel yang dapat diakses dengan mudah diseluruh bagian aplikasi.
+
 - State Komponen (Hanya tersimpan dan valid pada satu komponen saja)
 - Props (Hanya tersimpan dan valid di induk atau anak komponen saja)
 - Store (Tersimpan dan Valid dibagian manapun dari aplikasi)
@@ -118,15 +131,19 @@ new Vue({
 Direktori Vuex Store
 Umumnya Vuex store memiliki direktori sendiri bernama store yang sejajar dengan direktori main.js. Biasanya direktori store juga menyimpan modul-modul store untuk pengelompokan state agar lebih rapi dan terstruktur.
 
-Mutation hanya bertujuan untuk mengubah nilai variabel yang ada didalam store tanpa ada logika pengolahan muatan didalam fungsi mutation tersebut.
 - Vuex Mutations
+  
+Mutation hanya bertujuan untuk mengubah nilai variabel yang ada didalam store tanpa ada logika pengolahan muatan didalam fungsi mutation tersebut.
   ```bash
   store.commit("setAngka", this.newInputValue);
   ```
-  - commit => key untuk melakukan mutation
-  - setAngka => nama mutation
-  - this.newInputValue => Payload/mutation
+   - commit => key untuk melakukan mutation
+   - setAngka => nama mutation
+   - this.newInputValue => Payload/mutation
+
+
 - Vuex Actions
+
   Vuex actions bertugas sebagai pintu masuk perintah yang menghubungkan komponen dengan store, Action perlu memanggil fungsi di mutations untuk memodifikasi nilai state yang ada di store. Action juga tempat untuk melakukan komunikasi dengan API
    ```bash
   store.dispatch("changeAngkaValue", this.newInputValue);
@@ -136,9 +153,11 @@ Mutation hanya bertujuan untuk mengubah nilai variabel yang ada didalam store ta
     - this.newInputValue => Payload/mutation
     
 Memecah Store Sebagai Modul
+
 praktik terbaik penggunaan Vuex Store adalah dengan cara memisah atau mengisolasi state, mutations dan action ke dalam modul-modul terpisah
 
-Fungsi namespaced 
+Fungsi namespaced
+
 jika nilainya true maka perlu menyertakan nama module+slash sebelum nama action. Jika nilainya false maka tidak perlu menyertakan nama module sebelum nama action namun diseluruh modul tidak boleh ada nama action yang sama.
 
 ### Penyimpanan Global Permanen
