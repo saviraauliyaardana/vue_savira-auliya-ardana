@@ -197,17 +197,17 @@ Pada task ini membuat sebuah todo list dengan menggunakan komponen file tunggal 
 4. Jika judul salah satu di klik, maka navigasi ke halaman detail
 
     Output:
-    ![](https://drive.google.com/uc?export=view&id=1tUYXF9nl--Cju7IfGYvuNGgUR8wh8Z2L)
+    ![](https://drive.google.com/uc?export=view&id=1_reNjYpJxmyNnXfhZ50Y3Fe8M3o_EU2K)
     
 5. Deskripsi dapat diubah
 
     Output:
-    ![](https://drive.google.com/uc?export=view&id=1QC6_RfEC6YCMs2tvcaiGs8CNuurwvBcF)
+    ![](https://drive.google.com/uc?export=view&id=1GFNCF_1DzUxzTJQcIxl8_l5QqEfel6H-)
     
 6. Setelah diubah, deskripsi tidak boleh hilang jika dimuat ulang
 
     Output:
-    ![](https://drive.google.com/uc?export=view&id=1banDP59pDX_gyqqf29Q_wdHrj2IReuT3)
+    ![](https://drive.google.com/uc?export=view&id=1vWWz1sSYwEe5MbazUyTaLlRlW8PaJvcQ)
     
       
 
