@@ -1,25 +1,27 @@
-import vue from "vue";
-import vueRouter from 'vue-router'
+import Vue from "vue";
+import VueRouter from "vue-router";
+import News from "../views/news.vue";
+import NewsDetail from "../views/detailNews.vue"
 
-import home from '@/views/home.vue'
-import detail from '@/views/detail.vue'
+Vue.use(VueRouter);
 
-vue.useAttrs(VueRouter)
-
-const routes = [{
+const routes = [
+  {
     path: "/",
-    name: 'home'
-    //component: home
-},
-    path: '/detail',
-    name: 'detail'
-    component: detail
-]
+    name: "News",
+    component : News,
+  },
+  {
+    path: "/news/:index",
+    component : NewsDetail,
+    name: "NewsDetail",
+  },
+  
+];
+const router = new VueRouter({
+    mode:"history",
+    base: "/",
+    routes,
+  });
 
-const router =new VueRouter({
-    mode: 'history',
-    base: process.env.Base_URL,
-    routes
-})
-
-export default router
+export default router;
