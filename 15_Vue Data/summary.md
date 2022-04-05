@@ -103,9 +103,11 @@ sedangkan untuk otorisasi jika akan membatasi akses terhadap/akun hanya untuk pe
 ## Task
 Pada task ini membuat sebuah aplikasi berita dengan bantuan ```https://newsapi.org/```. Dengan kondisi dan contoh visual seperti yang di contohkan yaitu:
 1. Halaman Berita
+
     Output:
     ![](https://drive.google.com/uc?export=view&id=1pvi7bvDap4EroLYaBPR5WyOFO5421B6q)
 
 2. Jika salah satu berita diklik, maka akan mengarah ke detail berita, dimana terdapat konten
+    
     Output:
     ![](https://drive.google.com/uc?export=view&id=1brl9mlKaIl6BEV6LHlmHYLn--VzjjCKD)
