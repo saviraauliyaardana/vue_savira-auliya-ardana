@@ -126,4 +126,4 @@ lebar layar dibagi menjadi beberapa golongan dan setiap komponen dapat ditentuka
 Merevaktor aplikasi berita pada latihan vue data menggunakan Vuetify dan menambahkan fitur menu pilihan kategori dan juga pencarian
 
 Output:
-![]()
+![](https://drive.google.com/uc?export=view&id=1t0H2LqaXSnQLaS6Hok7LGL-66v2962BS)
