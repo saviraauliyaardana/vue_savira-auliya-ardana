@@ -55,4 +55,4 @@ Deployment dapat dilakukan dengan menggunakan website:
 Deploy aplikasi berita pada latihan materi Vue UI Framework menggunakan Netlify atau Heroku. Pastikan nama halaman tidak random dan halaman tidak rusak ketik dimuat ulang
 
 Output:
-![]()
+[link deploy](https://6251261e3799d4626dd32bd7--fastidious-bubblegum-c363b6.netlify.app/)
