@@ -114,6 +114,7 @@ Reaktifitas Viewport adalah perubahan ukuran yang menyesuaikan dengan lebar laya
 
 Cara Kerja Reaktivitas pada Vuetify
 lebar layar dibagi menjadi beberapa golongan dan setiap komponen dapat ditentukan ukurannya berdasarkan golongan tersebut 
+
 ![](https://drive.google.com/uc?export=view&id=1Vl0zEe8XUZAzJ1vyrCCKqQAZGkPvwku-)
 
 ### Extra
