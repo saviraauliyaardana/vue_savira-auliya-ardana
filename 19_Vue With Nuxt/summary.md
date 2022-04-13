@@ -196,4 +196,4 @@ export default{
 Revaktor aplikasi berita pada latihan materi Vue UI Framework menggunakan Nuxt dan tambahkan fitur PWA
 
 Output:
-![](https://drive.google.com/uc?export=view&id=1kQcmcro7ujI55lXJ3AS6WpahndyOFELZ/)
+![](https://drive.google.com/uc?export=view&id=1kQcmcro7ujI55lXJ3AS6WpahndyOFELZ)
