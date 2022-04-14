@@ -31,4 +31,12 @@ Pseudocode atau kode semu dapat diartikan sebagai deskripsi dari algoritma pemro
 Flowchart adalah suatu bagan dengan simbol tertentu yang menggambarkanurutan dan hubungan antar proses secara mendetail.
 
 Simbol-simbol flowchart:
+
 ![](https://drive.google.com/uc?export=view&id=1Q8lPH9EsfpVvgOCuhPbjFg1F11NGVs9q)
+
+## Task
+Membuat Sebuah flowchart dengan algoritma yang sudah ditentukan
+- Problem 1 : Bilangan Prima
+- Problem 2 : Lampu dan Tombol
+
+[link Flowchart](https://whimsical.com/LKYzzxgyaVUoDCNjiS8rb8)
