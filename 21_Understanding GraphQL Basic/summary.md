@@ -481,6 +481,15 @@ export default {
 See ApolloQuery to learn how to write GraphQL queries in the template. See API Reference for all the available options.
 
 ## Task
-Pada task ini membuat sebuah database bernama kampus_merdeka pada website Hasura
+Pada task ini membuat sebuah database bernama kampus_merdeka pada website Hasura. Pada data base tersebut berisi table anggota dan table keterangan
+
+Output:
+- Table anggota
+    
+    ![](https://drive.google.com/uc?export=view&id=18iSdqIFDmaBlHxqVZhHK8fdJkfo1OfK0)
+    
+- Table keterangan
+    
+    ![](https://drive.google.com/uc?export=view&id=1IUYfCZGN1jFOxLtToXkEFEpaTZiQsU4l)
 
     
