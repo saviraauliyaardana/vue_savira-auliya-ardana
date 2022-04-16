@@ -25,9 +25,11 @@ There are 3 main Features in GraphQL client:
         A GraphQL fragment is a piece of logic that can be shared between multiple queries and mutations. We can use fragment to simplify query or mutation
 
 2. Mutation, insert,update,delete data
-    Mutation is basically functionality to update,insert and delete data. We need to define what operation that we want to do (based on available operation on your graphql server) and then define what data GraphQL need to return
+
+   Mutation is basically functionality to update,insert and delete data. We need to define what operation that we want to do (based on available operation on your graphql server) and then define what data GraphQL need to return
 
 3. Subscription, get updated date realtime/based on events
+
     Subscription are a GraphQL feature that allows a server to send data to its clients when a specific event happens. Subscription are usually implemented with WebSockets. In the server maintains a steady connection to its subscribed client.
 
 ### Hasura & Heroku
@@ -48,6 +50,7 @@ Make as hasura public API
 
 Query and Mutation
 Open tab API, write your query or just click in explorer then click execute. Create mutation query to insert new dta or update data
+
 ### Apollo Setup
 Apollo Client is a comprehensive state management library for JavaScript that enables you to manage both local and remote data with GraphQL. Use it to fetch, cache, and modify application data, all while automatically updating your UI.
 
@@ -88,6 +91,7 @@ Apollo Client Vue Setup
 
 ### Query
 Query With Apollo Client
+
 You can use the ApolloQuery (or apollo-query) component to have watched Apollo queries directly in your template. After reading this page, see the API Reference for all the possible options.
 ```bash
 <template>
@@ -104,9 +108,7 @@ You can use the ApolloQuery (or apollo-query) component to have watched Apollo q
 </template>
 ```
 We are passing a function to the query prop that gets the gql tag as argument, so we can write the GraphQL document directly.
-
 The above example also features variables passed to the query using the prop with the same name.
-
 Inside the default slot of ApolloQuery, you can access various slot data about the watched query, like the result object:
 ```bash
 <template v-slot="{ result: { loading, error, data } }">
@@ -167,8 +169,8 @@ export default {
 
 ### Mutation
 - Mutation with Apollo Client
-You can use the ApolloMutation (or apollo-mutation) component to call Apollo mutations directly in your template.
 
+You can use the ApolloMutation (or apollo-mutation) component to call Apollo mutations directly in your template.
 Here is an example:
 ```bash
 <ApolloMutation
@@ -194,6 +196,7 @@ Here is an example:
 See ApolloQuery to learn how to write GraphQL queries in the template. See API Reference for all the available options
 
 - Mutation with Apollo Client - Updating the cache
+
 you need to tell Apollo Client how to update the cache with the mutation result. For example, if the mutation adds a new item, you have to update the relevent query result to effectively push this new items to the query.
 
 #Adding an item
@@ -278,7 +281,9 @@ export default {
 }
 </script>
 ```
+
 - Mutation with Apollo Client - Removing an item
+
 ```bash
 <template>
   <ApolloMutation
@@ -368,6 +373,7 @@ export default {
 
 ### Subscription
 - Setting Subscription
+
     - To enable the websocket-based subscription, a bit of additional setup is required:
 
     ```npm install --save apollo-link-ws apollo-utilities```
@@ -423,6 +429,7 @@ export default {
     ```
 
 - Setting Subscription - ApolloSubscribeToMore
+
 You can subscribe to more data with the ApolloSubscribeToMore (or apollo-subscribe-to-more) component. You can put as many of those as you want inside a <ApolloQuery> component.
 
 Here is an example:
@@ -472,3 +479,8 @@ export default {
 </script>
 ```
 See ApolloQuery to learn how to write GraphQL queries in the template. See API Reference for all the available options.
+
+## Task
+Pada task ini membuat sebuah database bernama kampus_merdeka pada website Hasura
+
+    
