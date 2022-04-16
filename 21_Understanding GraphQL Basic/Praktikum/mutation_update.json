@@ -1,0 +1,7 @@
+mutation MyMutation {
+    update_keterangan(where: {status: {}}, _set: {status: true}) {
+      returning {
+        status
+      }
+    }
+  }

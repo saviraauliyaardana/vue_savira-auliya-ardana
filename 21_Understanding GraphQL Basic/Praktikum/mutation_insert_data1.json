@@ -1,0 +1,7 @@
+mutation MyMutation {
+  insert_keterangan(objects: {id: 5, id_anggota: 3, status: true, pelajaran: "Sistem Informasi", nilai: 90}) {
+    returning {
+      id
+    }
+  }
+}
