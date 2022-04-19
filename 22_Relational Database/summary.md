@@ -88,7 +88,7 @@ SUBQUERY
 subquery/inner query/nested query adalah query didalam query SQL lain. Sebuah subquery digunakan untuk mengembalikan data yang akan digunakan dalam query utama sebagai syarat untuk lebih membatasi data yang akan diambil
 
 FUNCTION
-sebuah kumpulan statement yang akan mengembalikan sebuah nilai baik pada pemanggilnya
+sebuah kumpulan statement yang akan mengembalikan sebuah nilai baik pada pemanggilnya. Nilai yang dihasilkan function harus ditampung kedalam sebuah variabel
 
 ## Task
 Pada task ini melakukan relasi database one to one dan pne to many pada databse kampus_merdeka yang sudah dibuat sebelumnya
