@@ -109,7 +109,13 @@ Pada task ini melakukan relasi database one to one dan pne to many pada databse 
 
 Output:
 
+![](https://drive.google.com/uc?export=view&id=1SK9-4lgbnK5cjPEpATUUyc49vgC83WmF)
+![](https://drive.google.com/uc?export=view&id=1UP3fYxfxOxJMGO-p0jnkA-dEhpilt0Xg)
+
 2. Relasi database one to many, yang mana akan menghubungkan id pada tabel anggota dengan pelajaran pada tabel keterangan
 
 Output:
+
+![](https://drive.google.com/uc?export=view&id=1HUQHg4wmFxL3RYTwKgPDR_b_JlHcV1LD)
+![](https://drive.google.com/uc?export=view&id=1QgEGlfuQ3q3nvL_o2aQyawBohgHaTHt7)
 
