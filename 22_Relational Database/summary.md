@@ -14,18 +14,21 @@ Data base adalah sekumpulan data yang terorganisir, umumnya disimpan dan diakses
 ada 3 jenis relationship database, antara lain yaitu:
 
 - One to One
+
     Relasi One to One adalah relasi yang mana setiap satu baris data pada tabel hanya berhubungan dengan satu baris pada tabel lainnya.
 
     Contoh : 
     Pada pengajaran private satu guru satu siswa. Seorang guru mengajar seorang siswa, Seorang siswa diajar oleh seorang guru.
 
 - One to Many
-    Relasi One to Many adalah relasi yang mana setiap satu baris data pada tabel pertama berhubungan dengan lebih dari satu baris pada tabel kedua. 
+   
+   Relasi One to Many adalah relasi yang mana setiap satu baris data pada tabel pertama berhubungan dengan lebih dari satu baris pada tabel kedua. 
 
     Contoh :
     relasi antara tabel Mahasiswa dan tabel Mata Kuliah. Satu mahasiswa bisa berhubungan dengan satu baris atau lebih mata kuliah
 
 - Many to Many
+    
     Relasi Many to Many adalah relasi yang mana setiap lebih dari satu baris data dari tabel pertama berhubungan dengan lebih dari satu baris data pada tabel kedua. Artinya, kedua tabel masing-masing dapat mengakses banyak data dari tabel yang direlasikan.
 
     Contoh: mahasiswa dengan mata kuliah. 1 mahasiswa bisa ambil banyak mata kuliah dan 1 mata kuliah bisa dipilih oleh banyak mahasiswa
@@ -64,16 +67,23 @@ sebuah klausa untuk mengkombinasikan record dari dua atau lebih tabel
 
 JOIN STANDAR SQL ANSI
 - INNER JOIN
+    
     Inner join akan mengembalikan baris-baris dari dua tabel atau lebih yang memenuhi syarat
+    
 - LEFT JOIN
+    
     Left join akan mengembalikan seluruh baris dari tabel disebelah kiri yang dikenai kondisi ON dan hanya baris dari tabel disebelah kanan yang memenuhi kondisi join
+    
 - RIGHT JOIN
-    Right join akan mengembalikan semua baris dari tebel sebelah kanan yang dikenal kondisi ON dengan data dari tabel sebelah kiri yang memenuhi kondisi join. Teknik ini merupakan kebalikan dari left join
+   
+   Right join akan mengembalikan semua baris dari tebel sebelah kanan yang dikenal kondisi ON dengan data dari tabel sebelah kiri yang memenuhi kondisi join. Teknik ini merupakan kebalikan dari left join
 
 UNION 
+
 hal yang harus diperhatikan dari union adalah jumlah field yang dikeluarkan/dipanggil harus sama
 
 AGGREGATE
+
 Fungsi agregasi adalah fungsi dimana nilai beberapa baris dikelompokkan bersama untuk membentuk nilai ringkasan tunggal
 
 Fungsi agregasi SQL
@@ -85,9 +95,11 @@ Fungsi agregasi SQL
 - HAVING, untuk menyeleksi data berdasarkan kriteria tertentu, dimana kriteria berupa fungsi aggregat
 
 SUBQUERY
+
 subquery/inner query/nested query adalah query didalam query SQL lain. Sebuah subquery digunakan untuk mengembalikan data yang akan digunakan dalam query utama sebagai syarat untuk lebih membatasi data yang akan diambil
 
 FUNCTION
+
 sebuah kumpulan statement yang akan mengembalikan sebuah nilai baik pada pemanggilnya. Nilai yang dihasilkan function harus ditampung kedalam sebuah variabel
 
 ## Task
