@@ -486,9 +486,4 @@ Pada task ini menghubungkan project react yang sudah tersedia dengan GraphQL, la
 Output:
 
     
-    ![](https://drive.google.com/uc?export=view&id=)
-
-
-    
-    ![](https://drive.google.com/uc?export=view&id=)
-    
+    ![](https://drive.google.com/uc?export=view&id=1HROuFoHiDzcpvS0VlpOhSdMmv6U3XzId)
