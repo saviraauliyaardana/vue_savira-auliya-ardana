@@ -484,6 +484,5 @@ See ApolloQuery to learn how to write GraphQL queries in the template. See API R
 Pada task ini menghubungkan project react yang sudah tersedia dengan GraphQL, lalu melakukan query pada database lain serta membuat fitur untuk melakukan query berdasarkan inputan dari user
 
 Output:
-
-    
-    ![](https://drive.google.com/uc?export=view&id=1HROuFoHiDzcpvS0VlpOhSdMmv6U3XzId)
+![](https://drive.google.com/uc?export=view&id=1HROuFoHiDzcpvS0VlpOhSdMmv6U3XzId)
+  
