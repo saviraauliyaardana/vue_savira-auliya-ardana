@@ -1,0 +1,7 @@
+mutation MyMutation($nama: String = "") {
+  update_anggota(where: {nama: {}}, _set: {nama: $nama}) {
+    returning {
+      nama
+    }
+  }
+}
