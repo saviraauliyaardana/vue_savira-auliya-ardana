@@ -481,14 +481,22 @@ export default {
 See ApolloQuery to learn how to write GraphQL queries in the template. See API Reference for all the available options.
 
 ## Task
-Pada task ini menghubungkan project react yang sudah tersedia dengan GraphQL, lalu melakukan query pada database lain serta membuat fitur untuk melakukan query berdasarkan inputan dari user
+Pada task ini melakukan mutation pada project yang telah dibuat di task GraphQL query.
 
-Output:
 
+- Fitur Submit pada table todo
+
+  Output:
+  ![](https://drive.google.com/uc?export=view&id=1xLuu-4hmH-1t2waWZR0pmFWlvbj2vDl7)
+  ![](https://drive.google.com/uc?export=view&id=1ABpzplSRa_JsOLLUCqFeSnMcmg-esZka)
+
+- Fitur Delete pada table todo
+
+  Output:
+  ![](https://drive.google.com/uc?export=view&id=1qNzczEXeHYUtwQDmxmcb_H0ycFNB8mI_)
+
+- Fitur Edit pada table todo
+  *fitur edit belum bisa berfungsi
     
-    ![](https://drive.google.com/uc?export=view&id=)
-
-
     
-    ![](https://drive.google.com/uc?export=view&id=)
     
