@@ -481,13 +481,9 @@ export default {
 See ApolloQuery to learn how to write GraphQL queries in the template. See API Reference for all the available options.
 
 ## Task
-Pada task ini menghubungkan project react yang sudah tersedia dengan GraphQL, lalu melakukan query pada database lain serta membuat fitur untuk melakukan query berdasarkan inputan dari user
+Pada task ini melakukan subscription pada project yang dipakai sebelumnya
 
 Output:
-
-    
-    ![](https://drive.google.com/uc?export=view&id=)
-
 
     
     ![](https://drive.google.com/uc?export=view&id=)
