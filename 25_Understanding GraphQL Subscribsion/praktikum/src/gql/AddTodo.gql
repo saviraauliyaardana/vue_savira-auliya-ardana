@@ -1,0 +1,8 @@
+mutation MyMutation($nama: String!) {
+  insert_anggota(objects: {nama: $nama}) {
+    returning {
+      id
+      nama
+    }
+  }
+}

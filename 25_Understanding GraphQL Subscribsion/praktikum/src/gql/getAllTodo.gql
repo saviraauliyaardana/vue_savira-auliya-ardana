@@ -1,0 +1,6 @@
+query MyQuery {
+  anggota {
+    id
+    nama
+  }
+}
